@@ -31,3 +31,19 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# macOS System File
+.DS_Store
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.classpath
+.project
