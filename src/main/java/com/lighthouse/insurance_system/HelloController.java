@@ -1,0 +1,12 @@
+package com.lighthouse.insurance_system;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@RestController
+public class HelloController {
+	@GetMapping("/hello")
+	public String sayHello() {
+		return "Lighthouse Insurance System is Online (Java 21)";
+	}
+}
