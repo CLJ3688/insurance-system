@@ -25,4 +25,8 @@ public class Claim {
 		return this.amount != null && this.amount > 10000;
 	}
 	
+	@PrePersist
+	protected void onCreate() {
+		this.reportDate = LocalDate.now();
+	}
 }
